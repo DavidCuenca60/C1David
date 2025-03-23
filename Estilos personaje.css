@@ -189,6 +189,11 @@ body {
 }
 
 
+.card-list-DOS {
+    display: flex;
+    flex-direction: row;
+}
+
 
 .user-image-BULMA {
     display: flex;
@@ -273,4 +278,15 @@ body {
     padding-top: 5px;
     padding-bottom: 10px;
     padding-left: 20px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1A1A1A;
+    text-align: center;
+    font-size: 25px;
 }
